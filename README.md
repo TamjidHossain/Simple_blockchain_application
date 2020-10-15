@@ -1,6 +1,6 @@
 # Simple_blockchain_application
 
-The blockchain application can be implemented using a simple python code (CS705_Blockchain_application.py). The function of the application is to demonstrate a blockchain system working procedure where some users exchange some values (like currency) to each other. The transactions are gathered in a Merkle tree structure and some miners perform the validation of transaction and proof-of-work to create the block and store it in the chain. In real life, the miners try to solve the puzzle parallelly. Here, for simplicity, miners are selected randomly to perform the proof-of-work algorithm one-by-one. The miner who solves the puzzle first is selected to mine the block. 
+The blockchain application can be implemented using a simple python code (Blockchain_application.py). The function of the application is to demonstrate a blockchain system working procedure where some users exchange some values (like currency) to each other. The transactions are gathered in a Merkle tree structure and some miners perform the validation of transaction and proof-of-work to create the block and store it in the chain. In real life, the miners try to solve the puzzle parallelly. Here, for simplicity, miners are selected randomly to perform the proof-of-work algorithm one-by-one. The miner who solves the puzzle first is selected to mine the block. 
 
 Merkle tree structure used in this application has the following sizable benefits:
 •	They provide a way to prove both the integrity and validity of data
